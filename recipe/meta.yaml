@@ -48,11 +48,11 @@ requirements:
     - texinfo  # [not win]
     - pandoc
     - sphinxcontrib-paverutils
+    - sphinxjp.themes.solarized
 # FIXME: Add these packages when available in conda
 #    - pdftools
 #    - preprocess
 #    - publish
-#    - sphinxjp.themes.solarized
 #    - sphinxjp.themes.impressjs
 #    - sphinx-sagecell
 #    - tinkerer
