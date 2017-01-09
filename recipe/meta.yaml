@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
   script: python setup.py install
   skip: True  # [py3k]
 
@@ -48,11 +48,11 @@ requirements:
     - texinfo  # [not win]
     - pandoc
     - sphinxcontrib-paverutils
+    - sphinxjp.themes.solarized
 # FIXME: Add these packages when available in conda
 #    - pdftools
 #    - preprocess
 #    - publish
-#    - sphinxjp.themes.solarized
 #    - sphinxjp.themes.impressjs
 #    - sphinx-sagecell
 #    - tinkerer
