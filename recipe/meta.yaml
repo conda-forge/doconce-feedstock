@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 2
+  number: 3
   script: python setup.py install
   skip: True  # [py3k]
 
@@ -50,10 +50,10 @@ requirements:
     - sphinxcontrib-paverutils
     - sphinxjp.themes.solarized
     - preprocess
+    - sphinxjp.themes.impressjs
+    - publish
 # FIXME: Add these packages when available in conda
 #    - pdftools
-#    - publish
-#    - sphinxjp.themes.impressjs
 #    - sphinx-sagecell
 #    - tinkerer
 #    - pygments-ipython-console
