@@ -51,9 +51,9 @@ requirements:
     - sphinxjp.themes.solarized
     - preprocess
     - sphinxjp.themes.impressjs
+    - publish
 # FIXME: Add these packages when available in conda
 #    - pdftools
-#    - publish
 #    - sphinx-sagecell
 #    - tinkerer
 #    - pygments-ipython-console
