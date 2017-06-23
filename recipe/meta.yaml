@@ -32,9 +32,9 @@ requirements:
     - future
     - mako
     - python-levenshtein
-    - libxml2
+    - libxml2 2.9.*
     - libxslt
-    - zlib
+    - zlib 1.2.*
     - lxml
     - sphinx
     - alabaster
