@@ -40,7 +40,7 @@ requirements:
     - alabaster
     - sphinx_rtd_theme
     - cloud_sptheme
-    - sphinx-bootstrap-theme
+    - sphinx_bootstrap_theme
     - paver
     - cogapp
     - beautifulsoup4
