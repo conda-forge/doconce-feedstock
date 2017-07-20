@@ -20,6 +20,8 @@ requirements:
     - python
     - pygments
     - future
+    - preprocess
+    - mako
   run:
     - python
     - pygments
