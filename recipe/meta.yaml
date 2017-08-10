@@ -1,6 +1,6 @@
 {% set name = "doconce" %}
-{% set version = "1.4.2" %}
-{% set sha256 = "8edd8c6c4109c183290769697e0d179ec0564c908b42c7f105aa52b7612ef82e" %}
+{% set version = "1.4.3" %}
+{% set sha256 = "d97e496610883f1d2fbb1f344f5151ef2fe109ecc218441411513c103eabd2cc" %}
 
 package:
   name: {{ name|lower }}
