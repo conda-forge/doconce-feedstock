@@ -39,10 +39,10 @@ Current build status
 
 Current release info
 ====================
-[![Conda Recipe](https://img.shields.io/badge/recipe-doconce-green.svg)](https://anaconda.org/conda-forge/doconce)
-[![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/doconce.svg)](https://anaconda.org/conda-forge/doconce)
-[![Conda Version](https://img.shields.io/conda/vn/conda-forge/doconce.svg)](https://anaconda.org/conda-forge/doconce)
-[![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/doconce.svg)](https://anaconda.org/conda-forge/doconce)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-doconce-green.svg)](https://anaconda.org/conda-forge/doconce) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/doconce.svg)](https://anaconda.org/conda-forge/doconce) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/doconce.svg)](https://anaconda.org/conda-forge/doconce) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/doconce.svg)](https://anaconda.org/conda-forge/doconce) |
 
 Installing doconce
 ==================
