@@ -55,7 +55,7 @@ requirements:
     - sphinxcontrib-paverutils
     - sphinxjp.themes.solarized
     - preprocess
-    - sphinxjp.themes.impressjs
+#    - sphinxjp.themes.impressjs    # incompatible with sphinx >= 1.7
     - publish
 # FIXME: Add these packages when available in conda
 #    - pdftools
