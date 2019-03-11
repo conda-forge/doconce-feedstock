@@ -1,6 +1,6 @@
 {% set name = "doconce" %}
-{% set version = "1.4.10" %}
-{% set sha256 = "a8207ee19528e6e344765fa5115bcb6cce86a494d43fbaf4153a0552f13fb624" %}
+{% set version = "1.4.11" %}
+{% set sha256 = "2805bd492c98bfce8742282638b559d69cdb32b37acb80c8f9e924d93df70a89" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1000
+  number: 0
   script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
 
 requirements:
