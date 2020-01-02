@@ -1,7 +1,7 @@
 About doconce
 =============
 
-Home: http://hplgit.github.io/doconce/doc/web/
+Home: http://doconce.github.io/doconce/doc/web/
 
 Package license: BSD 3-clause
 
@@ -9,9 +9,9 @@ Feedstock license: BSD 3-Clause
 
 Summary: Document once, include anywhere
 
-Doconce is two things:
+DocOnce is two things:
 .
-1. Doconce is a very simple and minimally tagged markup language that
+1. DocOnce is a very simple and minimally tagged markup language that
 looks like ordinary ASCII text (much like what you would use in an
 email), but the text can be transformed to numerous other formats,
 including HTML, Wiki, LaTeX, PDF, reStructuredText (reST), Sphinx,
@@ -22,10 +22,10 @@ to RTF and MS Word. From Pandoc one can generate Markdown, reST,
 LaTeX, HTML, PDF, DocBook XML, OpenOffice, GNU Texinfo, MediaWiki,
 RTF, Groff, and other formats.
 .
-2. Doconce is a working strategy for never duplicating information.
+2. DocOnce is a working strategy for never duplicating information.
 Text is written in a single place and then transformed to a number of
 different destinations of diverse type (software source code,
-manuals, tutorials, books, wikis, memos, emails, etc.). The Doconce
+manuals, tutorials, books, wikis, memos, emails, etc.). The DocOnce
 markup language support this working strategy. The slogan is: "Write
 once, include anywhere".
 
@@ -188,7 +188,7 @@ A feedstock is made up of a conda recipe (the instructions on what and how to bu
 the package) and the necessary configurations for automatic building using freely
 available continuous integration services. Thanks to the awesome service provided by
 [CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/)
-and [TravisCI](https://travis-ci.org/) it is possible to build and upload installable
+and [TravisCI](https://travis-ci.com/) it is possible to build and upload installable
 packages to the [conda-forge](https://anaconda.org/conda-forge)
 [Anaconda-Cloud](https://anaconda.org/) channel for Linux, Windows and OSX respectively.
 
@@ -237,6 +237,7 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@aless80](https://github.com/aless80/)
 * [@johannesring](https://github.com/johannesring/)
 * [@kghustad](https://github.com/kghustad/)
 
