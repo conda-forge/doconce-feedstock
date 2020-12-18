@@ -1,6 +1,6 @@
 {% set name = "doconce" %}
-{% set version = "1.4.13" %}
-{% set sha256 = "40554d059724baf1b032511559d8e0e48bc0c9aa361c8e52f89b973e99d6fa50" %}
+{% set version = "1.5.00" %}
+{% set sha256 = "f7192cd64bb0734a3ceb74c1b32140edad6b97bac8446291e84cc45003dafeee" %}
 
 package:
   name: {{ name|lower }}
@@ -12,8 +12,8 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 2
-  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
+  number: 0
+  script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
 
 requirements:
   build:
@@ -74,7 +74,7 @@ about:
   license: BSD 3-clause
   license_family: BSD
   license_file: LICENSE
-  summary: 'Document once, include anywhere'
+  summary: Document once, include anywhere
 
   description: |
     DocOnce is two things:
